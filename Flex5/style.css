@@ -1,0 +1,47 @@
+#container {
+  display:flex;
+  flex-direction: column;
+}
+.green{
+  background-color: lightgreen;
+  height: 60px;
+}
+.white{
+  background-color: beige;
+  height: 40px;
+}
+.white ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+#container2{
+  display: flex;
+}
+#container2 div{
+  /*je veux que chacun de mes éléments prennent +/- 19% de l'espace de mon container*/
+flex-basis: 19%;
+height: 200px;
+}
+.yellow{
+  background-color: yellow;
+}
+.bleu{
+  background-color: cyan;
+  /*mon élément prend 3x plus de place dans mon container*/
+  flex-grow: 3;
+}
+.red{
+  background-color: red;
+}
+.grey{
+  background-color: #b1ced3;
+}
+.grey ul{
+  display: flex;
+  height: 61px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
